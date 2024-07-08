@@ -1,5 +1,7 @@
 # Authentication
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/authentication)
+
 The repository contains:
 
 - Distributed code from **eCentennial** used to build a server for **Authentication**.

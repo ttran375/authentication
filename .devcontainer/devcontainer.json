@@ -16,5 +16,5 @@
       ]
     }
   },
-  "postAttachCommand": "git pull --all && npm install"
+  "postAttachCommand": "yarn"
 }

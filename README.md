@@ -121,6 +121,32 @@ yarn start
   }
   ```
 
+### Fetch a user
+
+- **URL:** `http://localhost:3000/api/users/668c033d124f409871ef99b8`
+- **Method:** `GET`
+- **Headers:**
+  ```
+  Accept: */*
+  User-Agent: Thunder Client (https://www.thunderclient.com)
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjhjMDMzZDEyNGY0MDk4NzFlZjk5YjgiLCJpYXQiOjE3MjA0NTIyNzR9.4o_NbVH2pzQoaXsyylhMbmFoJeP70IG3MkDN8IY5YzI
+  Accept: */*
+  Accept-Encoding: gzip, deflate, br
+  Connection: keep-alive
+  ```
+- **Response:**
+  ```json
+  {
+      "_id": "668c033d124f409871ef99b8",
+      "name": "New User",
+      "email": "newuser@example.com",
+      "created": "2024-07-08T15:18:21.846Z",
+      "updated": "2024-07-08T15:18:21.846Z",
+      "__v": 0
+  }
+  ```
+
+
 ### Log a user out
 
 - **URL:** `http://localhost:3000/auth/signin`
